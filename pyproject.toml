@@ -1,0 +1,29 @@
+[project]
+name = "civitai-bounties"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "civitai-bounties-lib",
+    "krippendorff>=0.8.2",
+    "matplotlib>=3.10.9",
+    "nltk>=3.9.4",
+    "numpy>=2.4.4",
+    "openai>=2.36.0",
+    "pandas>=3.0.2",
+    "pyarrow>=24.0.0",
+    "pydantic>=2.13.4",
+    "requests>=2.33.1",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "selenium>=4.43.0",
+    "tenacity>=9.1.4",
+]
+
+[tool.uv.workspace]
+members = [
+    "code/package",
+]
+
+[tool.uv.sources]
+civitai-bounties-lib = { workspace = true, editable = true }

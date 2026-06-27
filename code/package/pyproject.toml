@@ -1,0 +1,13 @@
+[project]
+name = "civitai-bounties-lib"
+version = "0.1.0"
+description = "Lib to facilitate the CivitAI bounties analysis project"
+authors = [{ name = "Matthew DeVerna" }]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["civitai-bounties"]
