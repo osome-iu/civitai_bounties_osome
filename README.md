@@ -4,6 +4,9 @@ Explore the CivitAI.com bounties marketplace — data collection, cleaning, Open
 
 ---
 
+> [!CAUTION]
+> This repository is archived as of Nov 2nd, 2026.  If using the code in this repository, please be aware of any unpatched security issues.
+
 ## Prerequisites
 
 - Python 3.11+
